@@ -1,0 +1,102 @@
+# depslib dependency file v1.0
+1493445887 source:c:\z\cb\driver_test\main.c
+	<stdio.h>
+	"soc_config.h"
+	"wdt.h"
+
+1493445841 c:\z\cb\driver_test\soc_config.h
+
+1493450089 source:c:\z\cb\driver_test\soc_config.c
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<errno.h>
+	"soc_config.h"
+	"device.h"
+	"wdt.h"
+
+1493443223 c:\z\cb\driver_test\wdt.h
+	<stdint.h>
+
+1493446473 source:c:\z\cb\driver_test\wdt.c
+	<stdio.h>
+	<stdlib.h>
+	"soc_config.h"
+	"device.h"
+	"wdt.h"
+
+1493446526 source:c:\z\cb\driver_test\device.c
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<errno.h>
+	"soc_config.h"
+	"device.h"
+
+1493446331 c:\z\cb\driver_test\device.h
+	<stdint.h>
+
+1493463913 source:c:\z\cb\mini_embed_driver_framework\bsp\driver\wdt\wdt.c
+	<stdio.h>
+	<stdlib.h>
+	"../../soc/soc_config.h"
+	"../../soc/device.h"
+	"../../driver/wdt/wdt.h"
+
+1493465271 c:\z\cb\mini_embed_driver_framework\bsp\soc\soc_config.h
+
+1493616749 c:\z\cb\mini_embed_driver_framework\bsp\soc\device.h
+	<stdint.h>
+
+1493463879 c:\z\cb\mini_embed_driver_framework\bsp\driver\wdt\wdt.h
+	<stdint.h>
+
+1493456178 source:c:\z\cb\mini_embed_driver_framework\bsp\soc\device.c
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<errno.h>
+	"../../bsp/soc/soc_config.h"
+	"../../bsp/soc/device.h"
+
+1493620984 source:c:\z\cb\mini_embed_driver_framework\bsp\soc\soc_config.c
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<errno.h>
+	"../soc/soc_config.h"
+	"../soc/device.h"
+	"../driver/wdt/wdt.h"
+	"../driver/clk/clk.h"
+	"../driver/test/test.h"
+
+1493622545 source:c:\z\cb\mini_embed_driver_framework\project\main.c
+	<stdio.h>
+	"../bsp/soc/device.h"
+	"../bsp/soc/soc_config.h"
+	"../bsp/driver/wdt/wdt.h"
+	"../bsp/driver/clk/clk.h"
+	"../bsp/driver/test/test.h"
+
+1493462980 source:c:\z\cb\mini_embed_driver_framework\bsp\driver\clk\clk.c
+	<stdio.h>
+	<stdlib.h>
+	"../../soc/soc_config.h"
+	"../../soc/device.h"
+	"../../driver/clk/clk.h"
+
+1493463837 c:\z\cb\mini_embed_driver_framework\bsp\driver\clk\clk.h
+	<stdint.h>
+
+1493622980 source:c:\z\cb\mini_embed_driver_framework\bsp\driver\test\test.c
+	<stdio.h>
+	<stdlib.h>
+	"../../soc/soc_config.h"
+	"../../soc/device.h"
+	"../../driver/test/test.h"
+
+1493622710 c:\z\cb\mini_embed_driver_framework\bsp\driver\test\test.h
+	<stdint.h>
+
