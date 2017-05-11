@@ -1,6 +1,4 @@
-v1.0.0
+嵌入式驱动程序最小框架，类似linux驱动结构。
 
-open project with code::blocks
 
-Embedded Driver Framework of Intel curie BSP
 
