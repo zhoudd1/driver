@@ -43,7 +43,7 @@ struct td_device pf_device_test =
     },
 };
 
-static struct td_device *qrk_platform_devices[] =
+static struct td_device *platform_devices[] =
 {
     &pf_device_wdt,
     &pf_device_clk,
@@ -54,6 +54,6 @@ static struct td_device *qrk_platform_devices[] =
 void init_all_devices(void)
 {
     /* Init plateform devices and buses */
-    init_devices(qrk_platform_devices, ARRAY_SIZE(qrk_platform_devices));
+    init_devices(platform_devices, ARRAY_SIZE(platform_devices));
 
 }
